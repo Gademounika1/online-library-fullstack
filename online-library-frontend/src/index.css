@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  background-image: url('/public/library-bg.jpg'); /* from public folder */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.login-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 40px;
+  width: 350px;
+  text-align: center;
+}
+
+.login-card h2 {
+  margin-bottom: 20px;
+  color: #003366;
+}
